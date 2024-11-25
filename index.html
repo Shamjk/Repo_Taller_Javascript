@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Museos de Bogotá</h1>
+        <p>Explora los museos más emblemáticos de Bogotá, tales como el Museo de Oro y el Museo Nacional </p>
+    </header>
+    <main>
+        <section id="Museo de Oro">
+            <h2>Museo de Oro</h2>
+            <!-- Botón para mostrar/ocultar información del Museo de Oro-->
+             <button onclick="toggleInfo('museo-oro')">
+                Mostrar/Ocultar Información
+             </button>
+            <p>El Museo de Oro es reconocido por su colección de piezas Precolombinas de Oro y otros materiales.</p>
+        </section>
+        <section id="Museo Nacional">
+            <h2>Museo Nacional</h2>
+            <!-- Botón para mostrar/ocultar información del Museo de Oro-->
+             <button onclick="toggleInfo('museo-nacional')">
+                Mostrar/Ocultar Información
+             </button>
+            <p>El museo Nacional de Colombia es el más antiguo del país, con una gran colección de arte e historia.</p>
+        </section>
+    </main>
+    <!-- Botón para cambiar entre modo claro y oscuro-->
+     <button onclick="toggleTheme()">Cambiar Tema</button>
+    <script src= "js/script.js"></script>
+</body>
+</html>
